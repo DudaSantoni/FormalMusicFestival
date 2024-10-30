@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('../img/Wallpaper.png');
+    background-size: 100% 100%;
+}
+
+nav {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    height: 150px;
+    margin-bottom: 100px;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding-right: 10px;
+}
+
+nav ul li {
+    display: flex;
+    padding: 20px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    width: 130px;
+    height: 120px;
+    margin: 10px;
+}
+
+.formal {
+    font-size: 3rem;
+    width: 1000px;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    padding-block: 30px;
+    gap: 250px;
+
+}
+
+.whatts {
+    width: 40px;
+    height: 40px;
+}
+
+.Instagram {
+    width: 40px;
+    height: 40px;
+}
+
+.Facebook {
+    width: 40px;
+    height: 40px;
+}
+
+.X {
+    width: 40px;
+    height: 40px;
+}
+
+h3 {
+    color: white;
+}
+
+.contato {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin: 5px;
+    width: 370px;
+}
+
+.contato h3 a {
+    color: white;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    width: 370px;
+}
+
+.javatux {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+}
+
+.colab {
+    background-image: url(/img/Fundo.png);
+    border-radius: 10px;
+    margin-right: 100px;
+    margin-left: 50px;
+    /* padding: 20px; */
+}
+
+.superior {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 200px;
+}
+
+.b {
+    padding-top: 45px;
+}
+
+.meio {
+    display: flex;
+    justify-content: center;
+}
+
+.inferior {
+    display: flex;
+    justify-content: space-around;
+}
+
+.kit {
+    padding-top: 55px;
+    padding-left: 20px;
+}
+
+.globo1 {
+    padding-bottom: 20px;
+}
+
+.colaborador {
+    display: flex;
+    width: 100px;
+    font-size: 2rem;
+    color: white;
+    text-align: end;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.div1 {
+    background-color: #FABC42;
+    width: 2px;
+    height: 210px;
+    margin: 15px;
+}
+
+.div2 {
+    justify-content: center;
+    background-color: #FABC42;
+    width: 1200px;
+    height: 2px;
+    align-items: center;
+    margin: 15px;
+}
+
+.alinhar {
+    display: flex;
+    justify-content: center;
+}
+
+.bo {
+    padding-top: 15px;
+}
+.tentei{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('../img/Wallpaper.png');
+    background-size: 100% 100%;
+}
+
+nav {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    height: 150px;
+    margin-bottom: 100px;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding-right: 10px;
+}
+
+nav ul li {
+    display: flex;
+    padding: 20px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    width: 130px;
+    height: 120px;
+    margin: 10px;
+}
+
+.formal {
+    font-size: 3rem;
+    width: 1000px;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    padding-block: 30px;
+    gap: 250px;
+}
+
+.whatts {
+    width: 40px;
+    height: 40px;
+}
+
+.Instagram {
+    width: 40px;
+    height: 40px;
+}
+
+.Facebook {
+    width: 40px;
+    height: 40px;
+}
+
+.X {
+    width: 40px;
+    height: 40px;
+}
+
+h3 {
+    color: white;
+}
+
+.contato {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin: 5px;
+    width: 370px;
+}
+
+.contato h3 a {
+    color: white;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    width: 370px;
+}
+
+.javatux {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+}
+
+.tudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 50px;
+}
+
+.inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.7rem;
+    background-image: url('../img/preto.png');
+    background-position: center;
+    height: 150px;
+    width: 1000px;
+    border-radius: 10px;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 1.5rem;
+    background-image: url('../img/preto.png');
+    background-size: 100% 100%;
+    height: 500px;
+    width: 1000px;
+    border-radius: 10px;
+    padding: 30px;
+    gap: 20px;
+}
+
+.panorama {
+    font-size: 3rem;
+    width: 330px;
+    height: 60px;
+    border-bottom: 6px solid #FABC42;
+}
+
+.descubra {
+    width: 1000px;
+    font-size: 2rem;
+}
+
+.vem{
+    margin-top: 50px;
+    color: #FABC42;
+    font-size: 3rem;
+    border-bottom: 6px solid #FABC42;
+    padding-bottom: 20px;
+}

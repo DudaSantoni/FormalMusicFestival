@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('../img/Wallpaper.png');
+    background-size: 100% 100%;
+}
+
+nav {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    height: 150px;
+    margin-bottom: 100px;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding-right: 10px;
+}
+
+nav ul li {
+    display: flex;
+    padding: 20px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    width: 130px;
+    height: 120px;
+    margin: 10px;
+}
+
+.formal {
+    font-size: 3rem;
+    width: 1000px;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    padding-block: 30px;
+    gap: 250px;
+
+}
+
+.whatts {
+    width: 40px;
+    height: 40px;
+}
+
+.Instagram {
+    width: 40px;
+    height: 40px;
+}
+
+.Facebook {
+    width: 40px;
+    height: 40px;
+}
+
+.X {
+    width: 40px;
+    height: 40px;
+}
+
+h3 {
+    color: white;
+}
+
+.contato {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin: 5px;
+    width: 370px;
+}
+
+.contato h3 a {
+    color: white;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    width: 370px;
+}
+
+.javatux {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+}
+
+.asboxes {
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box1 {
+    color:#FABC42;
+    background-color: black;
+    font-size: 3.5rem;
+    width: 600px;
+    border-radius: 10px;
+    height: 500px;
+    padding: 30px;
+    margin-left: 100px;
+}
+
+.imagemlogo {
+    display: flex;
+    width: 400px;
+    border-radius: 40px;
+    padding-bottom: 30px;
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    background-color: black;
+    height: 650px;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    padding: 5rem;
+
+    margin-right: 100px;
+}
+.corh1{
+    color: #FABC42;
+}
+.oh1{
+    padding-top: 40px;
+    /* width: 20rem; */
+}
